@@ -1,0 +1,94 @@
+
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+.banner {
+    background-color: black;
+    color: ivory;
+    height: 100px;
+    width: 100%;
+}
+
+.heading {
+    position: relative;
+    top: 30px;
+    background-color: green;
+    border-radius: 0px 10px 10px 0px;
+    padding: 10px 10px 10px 100px;
+    display: inline;
+    font-size: 36px;
+}
+
+
+.nav ul li a {
+    text-decoration: underline;
+    font-size: 20px;
+    color: ivory;
+}
+
+#subtitle {
+    font-size: 24px;
+    display: inline-block;
+    text-align: end;
+    height: 200px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: green;
+}
+
+#subtitle h2 {
+    position:relative;
+    top: 80px;
+    background-color: black;
+    color: ivory;
+    border-radius: 10px 0px 0px 10px;
+    display: inline;
+}
+
+.aboutme, .work, .contactme, .resume {
+    display: inline-block;
+    width: 300px;
+    height: 600px;
+    border: 5px solid black;
+    text-align: right;
+    font-size: 36px;
+    padding-right: 10px;
+    margin-bottom: 5px;
+}
+
+#aboutme {
+    position: absolute;
+    margin: 15px 0 0 15px;
+    display: inline-block;
+    flex-wrap: wrap;
+}
+
+#work {
+    display: inline-block;
+    flex-wrap: wrap;
+}
+
+#contactme {
+    display: inline-block;
+    flex-wrap: wrap;
+}
+
+#resume {
+    display: inline-block;
+    flex-wrap: wrap;
+}
+.nav ul li {
+    display: inline-block;
+    float: right;
+    margin-right: 20px;
+}
+
+.headings div h2{
+    font-size: 40px;
+    border-right: solid black;
+}
