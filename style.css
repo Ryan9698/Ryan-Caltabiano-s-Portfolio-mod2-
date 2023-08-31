@@ -14,69 +14,57 @@
     width: 100%;
 }
 
-.nav ul li a {
-    font-size: 20px;
-    color: ivory;
-
+.nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    position: relative;
+    bottom: 20px;
+    min-width: 400px;
 }
 
-.heading {
+.nav a {
+    font-size: 22px;
+    color: ivory;
+}
+
+.name {
     position: relative;
-    top: 30px;
+    top: 20px;
+    display: inline;
     background-color: green;
     border-radius: 0px 10px 10px 0px;
     padding: 10px 10px 10px 100px;
-    display: inline;
-    font-size: 36px;
+    font-size: 48px;
 }
 
-#subtitle {
-    font-size: 24px;
-    display: inline-block;
+.subtitle {
     text-align: end;
     height: 200px;
     width: 100%;
-    margin: 0 auto;
     background-color: green;
 }
 
-#subtitle h2 {
+.subtitle h2 {
+    display: inline;
     position:relative;
     top: 80px;
+    font-size: 40px;
+    text-align: end;
     background-color: black;
     color: ivory;
     border-radius: 10px 0px 0px 10px;
-    display: inline;
+    padding: 10px;
+    padding-right: 90px;
 }
 
-.work, .contactme, .resume {
-    display: inline-block;
-    width: 300px;
-    height: 600px;
-    border-right: 5px solid black;
-    text-align: right;
-    font-size: 36px;
-    padding-right: 20px;
-    margin-bottom: 5px;
-    margin-top: 15px;
-}
-
-.work {
-    display: inline-block;
-    width: 300px;
-    height: 600px;
-    border-right: 5px solid black;
-    text-align: right;
-    font-size: 36px;
-    padding-right: 20px;
-    margin-bottom: 5px;
-    margin-top: 15px;
+.main {
+    display: flex;
     flex-wrap: wrap;
 }
+
 .aboutme {
-    position: relative;
-    display: inline-block;
-    width: 300px;
+    width: 200px;
     height: 100px;
     border-right: 5px solid black;
     text-align: right;
@@ -84,50 +72,67 @@
     padding-right: 20px;
     margin-bottom: 5px;
     margin-top: 15px;
-    flex-wrap: wrap;
 }
 
 #aboutme {
-    width: 1000px;
-    position: absolute;
-    margin: 15px 100px 0 30px;
-    display: inline-block;
+    width: 60%;
+    margin: 14px 100px 0 30px;
+}
+
+.work {
+    float: left;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    position: relative;
+    width: 200px;
+    height: 100px;
+    border-right: 5px solid black;
+    font-size: 36px;
+    padding-right: 20px;
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
+
+.imgLinks {
+    display: flex;
 }
 
 .mod1challenge {
-    border: 5px solid green;
-    display: inline-block;
-    position: absolute;
-    flex-wrap: wrap;
+    float: left;
+    position: relative;
     margin: 15px 100px 0 30px;
-    height: 400px;
-    width: 1000px;
+    height: 100px;
+    width: 70%;
+    max-width: 70%;
+}
 
+.contactme, .resume {
+    position: relative;
+    width: 300px;
+    height: 600px;
+    border-right: 5px solid black;
+    justify-content: end;
+    font-size: 36px;
+    padding-right: 20px;
+    margin-bottom: 5px;
+    margin-top: 15px;
 }
 
 #mod1practice {
-    border: 5px solid green;
-    display: inline-block;
+    float:inline;
     height: 150px;
-    width: 500px;
-    flex-wrap: wrap;
+    width: 30%;
+ 
 }
-
-.imgFormat{
-    position: absolute;
-    margin: auto;
-    display: inline-block;
-    flex-wrap: wrap;
-}
-
 
 #contactme {
-    display: inline-block;
-    flex-wrap: wrap;
+    display: flex;
+
 }
 
 #resume {
-    display: inline-block;
+    display: flex;
     flex-wrap: wrap;
 }
 .nav ul li {
@@ -135,11 +140,8 @@
     margin-right: 20px;
 }
 
-.nav ul {
-    text-align: right;
-}
 
-h3 {
+h3{
     font-size: 40px;
     border-right: solid black;
 }
