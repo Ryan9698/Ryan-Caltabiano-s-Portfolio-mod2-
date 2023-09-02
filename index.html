@@ -9,9 +9,11 @@
 <body>
     <header>
         <nav class="nav">
+            <img class="selfie" src="./assets/avatar.jpg" alt="Photo of Ryan">
+
           <h1 class="name">Ryan Caltabiano</h1>
             <ul>
-              <li><a href="#aboutme">About Me</a></li>
+              <li><a href=".aboutme">About Me</a></li>
               <li><a href="#work">Work</a></li>
               <li><a href="#contactme">Contact Me</a></li>
               <li><a href="#resume">Resume</a></li>
@@ -41,52 +43,46 @@
         <h3 class="sectionheading" id="work">Work</h3>
         <aside class="projectscontainer">
             <div class="class"><img class="images" id="mod1challenge"></div>
-                <h4 class="button">Module 1</h4>
-                    <p class="button2">Challenge</p>
-            <div class="class"><img class="images" id="project1"></div>
-                <h4 class="button"></h4>
-                <p class="button2"></p>
-            <div class="class"><img class="images" id="project2"></div>
-                <h4 class="button"></h4>
-                <p class="button2"></p>
-            <div class="class"><img class="images" id="project3"></div>
-                <h4 class="button"></h4>
-                <p class="button2"></p>
-            <div class="class"><img class="images" id="project4"></div>
-                <h4 class="button"></h4>
-                <p class="button2"></p>  
+                <h4 class="button1">Module 1 <br> Challenge</h4>
+            
+            <!-- div created for relative/absolute positioning -->
+
+            <div class="button2rel">   
+                <div class="class" id="project1"></div>
+                <h4 class="button2">Module 2 <br> Challenge</h4>
+                <!-- <p class="button2"></p> -->
+            </div>
+
+            <div class="button2rel">
+                <div class="class" id="project2"></div>
+                <h4 class="button3">Upcoming <br> Project</h4>
+                <!-- <p class="button2"></p> -->
+            </div>
+            
+            <div class="button2rel">
+                <div class="class" id="project3"></div>
+                <h4 class="button4">Upcoming <br> Project</h4>
+                <!-- <p class="button2"></p> -->
+            </div>
+
+            <div class="button2rel">
+                <div class="class" id="project4"></div>
+                <h4 class="button5">Upcoming <br> Project</h4>
+                <!-- <p class="button2"></p>   -->
+            </div>
         </aside>
      </section>
 
-
-    <!-- <section class="imglinks">
-        <h3 class="work">Work</h3>
-        These div containers are for the images and styling-->   
-        <!-- <div class="mod1challenge">
-            <img src="./assets/darlingtoniaphoto.jpg">
-        </div>
-        
-        <div id="mod1practice">
-            <img src="./assets/sundew.jpg">
-        </div>
-        <div id="mod2practice"></div>
-        <div id="filler1"></div>
-        <div id="filler2"></div> -->
-    <!-- </section>
-
-    <section>
-        <h3 class="contactme">Contact<br>Me</h3>
-        <div id="contactme">
-           <p>Email, Cell</p>
-        </div>
-    </section>
-
-    <section>
-        <h3 class="resume">Resume</h3>
-        <div id="resume">
-        <p>Link to a resume page.</p>
-        </div>
-    </section> -->
+     <section class="row">
+        <h3 class="sectionheading" id="contactme">Contact <br> Me</h3>
+        <aside class="aboutme">
+           <ul class="contactinfo">
+              <li><a href="tel:13214278329">321-427-8329</a></li>
+              <li><a href="mailto:rcaltabiano90@gmail.com">rcaltabiano90@gmail.com</a></li>
+              <li><a href="https://github.com/Ryan9698">GitHub</a></li>
+           </ul>
+        </aside>
+     </section>
   </div>
 </body>
 </html>
