@@ -20,7 +20,7 @@
     justify-content: flex-end;
     position: relative;
     bottom: 20px;
-    min-width: 400px;
+    min-width: 360px;
 }
 
 .nav a {
@@ -58,30 +58,118 @@
     padding-right: 90px;
 }
 
-.main {
+/* .main {
+    display: flex;
+    flex-wrap: wrap;
+} */
+
+/* .sectionheading controls the style for the h3 headings */
+
+.sectionheading {
+    flex: 0 0 25%;
+    text-align: right;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    border-right: 5px solid black;
+    padding-right: 30px;
+    
+}
+
+
+/* Row class used to set flex/spacing for headings */
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.projectscontainer {
     display: flex;
     flex-wrap: wrap;
 }
 
-.aboutme {
-    width: 200px;
-    height: 100px;
-    border-right: 5px solid black;
-    text-align: right;
+/* Class houses the images on the page */
+/* .class {
+    max-height: 380px;
+    max-width: 380px;
+    flex-wrap: wrap;
+} */
+
+.images {
+    max-height: 100%;
+    max-width: 100%;
+    flex-wrap: wrap;
+}
+/* Image sizing */
+#mod1challenge {
+    flex: 0 0 60%;
+    position: relative;
+    background-image: url(./assets/darlingtoniaphoto.jpg);
+    height: 300px;
+    width: 720px;
+    margin: 20px 130px 10px 82px;
+    border: 5px solid green;
+
+}
+
+#project1 {
+    flex: 0 0 60%;
+    position: relative;
+    background-image: url(./assets/sundew.jpg);
+    height: 150px;
+    width: 355px;
+    margin: 0px 10px 10px 82px;
+    border: 5px solid green;
+}
+
+#project2 {
+    flex: 0 0 60%;
+    position: relative;
+    background-image: url(./assets/vft.jpg);
+    height: 150px;
+    width: 355px;
+    margin: 0px 10px 10px 0px;
+    border: 5px solid green
+}
+
+#project3 {
+    flex: 0 0 60%;
+    position: relative;
+    background-image: url(./assets/sarraceniaphoto.jpg);
+    height: 150px;
+    width: 355px;
+    margin: 0px 10px 10px 82px;
+    border: 5px solid green;
+}
+
+#project4 {
+    flex: 0 0 60%;
+    position: relative;
+    background-image: url(./assets/pinguicula.jpg);
+    height: 150px;
+    width: 355px;
+    margin: 0px 10px 10px 0px;
+    border: 5px solid green;
+}
+
+/* .aboutme { */
+    /* width: 200px;
+    height: 100px; */ 
+    /* border-right: 5px solid black;
     font-size: 36px;
     padding-right: 20px;
     margin-bottom: 5px;
     margin-top: 15px;
+} */
+
+.aboutme {
+    /* width: 60%; */
+    margin: 20px 100px 0 30px;
+    flex: 0 0 60%;
 }
 
-#aboutme {
-    width: 60%;
-    margin: 14px 100px 0 30px;
-}
-
-.work {
+/* .work {
     float: left;
-    display: flex;
     flex-wrap: wrap;
     justify-content: end;
     position: relative;
@@ -92,7 +180,7 @@
     padding-right: 20px;
     margin-bottom: 5px;
     margin-top: 15px;
-}
+} */
 
 .imgLinks {
     display: flex;
@@ -140,8 +228,3 @@
     margin-right: 20px;
 }
 
-
-h3{
-    font-size: 40px;
-    border-right: solid black;
-}
