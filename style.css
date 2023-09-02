@@ -7,7 +7,22 @@
 
 }
 
+body {
+    background-color: #111111;
+    color: ivory;
+}
+
+.selfie {
+    display: inline-flex;
+    position: absolute;
+    bottom: 14px;
+    left: 2px;
+    z-index: 2;
+    height: 75px;
+}
+
 .nav {
+    position: relative;
     background-color: black;
     color: ivory;
     height: 100px;
@@ -21,6 +36,11 @@
     position: relative;
     bottom: 20px;
     min-width: 360px;
+}
+
+.nav ul li {
+    display: inline;
+    margin-right: 20px;
 }
 
 .nav a {
@@ -42,7 +62,8 @@
     text-align: end;
     height: 200px;
     width: 100%;
-    background-color: green;
+    background-image: url(./assets/flytrapbanner.jpg);
+    border-bottom: 10px solid black;
 }
 
 .subtitle h2 {
@@ -58,24 +79,16 @@
     padding-right: 90px;
 }
 
-/* .main {
-    display: flex;
-    flex-wrap: wrap;
-} */
-
-/* .sectionheading controls the style for the h3 headings */
-
 .sectionheading {
     flex: 0 0 25%;
     text-align: right;
     font-size: 40px;
     margin-top: 20px;
     margin-bottom: 40px;
-    border-right: 5px solid black;
+    border-right: 5px solid ivory;
     padding-right: 30px;
     
 }
-
 
 /* Row class used to set flex/spacing for headings */
 .row {
@@ -88,22 +101,24 @@
     flex-wrap: wrap;
 }
 
+.aboutme {
+    margin: 20px 100px 0 30px;
+    flex: 0 0 60%;
+}
+
 /* Class houses the images on the page ------------------- */
-/* .class {
-    max-height: 380px;
-    max-width: 380px;
-    flex-wrap: wrap;
-} */
 
 .images {
     max-height: 100%;
     max-width: 100%;
     flex-wrap: wrap;
 }
+
 /* Image sizing */
 #mod1challenge {
     flex: 0 0 60%;
     position: relative;
+    z-index: -1;
     background-image: url(./assets/darlingtoniaphoto.jpg);
     height: 300px;
     width: 720px;
@@ -152,90 +167,78 @@
 }
 /* ------------------------------------------------------- */
 
-/* Styling of the textinside images */
+/* Styling of the text inside images */
 
-.button {
+.button2rel {
+    position: relative
+}
+
+.button1 {
     position: absolute;
-    right: 300px;
-    bottom: 150px;
+    bottom: -115px;
+    right: 55.5%;
     background-color: green;
+    border-radius: 0px 10px 10px 0px;
     font-size: 30px;
     color: ivory;
 }
 
-/* .aboutme { */
-    /* width: 200px;
-    height: 100px; */ 
-    /* border-right: 5px solid black;
-    font-size: 36px;
-    padding-right: 20px;
-    margin-bottom: 5px;
-    margin-top: 15px;
-} */
-
-.aboutme {
-    /* width: 60%; */
-    margin: 20px 100px 0 30px;
-    flex: 0 0 60%;
+.button2 {
+    position: absolute;
+    bottom: 60px;
+    left: 86px;
+    font-size: 20px;
+    color: ivory;
+    background-color: green;
+    border-radius: 0px 10px 10px 0px;
 }
 
-/* .work {
-    float: left;
-    flex-wrap: wrap;
-    justify-content: end;
-    position: relative;
-    width: 200px;
-    height: 100px;
-    border-right: 5px solid black;
-    font-size: 36px;
-    padding-right: 20px;
-    margin-bottom: 5px;
-    margin-top: 15px;
-} */
-
-.imgLinks {
-    display: flex;
+.button3 {
+    position: absolute;
+    bottom: 60px;
+    left: 5px;
+    font-size: 20px;
+    color: ivory;
+    background-color: green;
+    border-radius: 0px 10px 10px 0px;
 }
 
-.mod1challenge {
-    float: left;
-    position: relative;
-    margin: 15px 100px 0 30px;
-    height: 100px;
-    width: 70%;
-    max-width: 70%;
+.button4 {
+    position: absolute;
+    bottom: 60px;
+    left: 86px;
+    font-size: 20px;
+    color: ivory;
+    background-color: green;
+    border-radius: 0px 10px 10px 0px;
 }
 
-.contactme, .resume {
-    position: relative;
-    width: 300px;
-    height: 600px;
-    border-right: 5px solid black;
-    justify-content: end;
-    font-size: 36px;
-    padding-right: 20px;
-    margin-bottom: 5px;
-    margin-top: 15px;
+.button5 {
+    position: absolute;
+    bottom: 60px;
+    left: 5px;
+    font-size: 20px;
+    color: ivory;
+    background-color: green;
+    border-radius: 0px 10px 10px 0px;
 }
 
-#mod1practice {
-    float:inline;
-    height: 150px;
-    width: 30%;
- 
-}
+/* ------------------------------------------------------- */
 
-#contactme {
-    display: flex;
-
-}
-
-#resume {
+.contactinfo {
     display: flex;
     flex-wrap: wrap;
 }
-.nav ul li {
-    display: inline;
-    margin-right: 20px;
+
+.contactinfo li {
+    display: inline-flex;
+    flex-wrap: wrap;
+    position: relative;
+    bottom: -27px;
 }
 
+.contactinfo a {
+    color: ivory;
+    font-size: 26px;
+    margin-right: 43px;
+}
