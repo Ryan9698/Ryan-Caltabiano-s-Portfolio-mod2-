@@ -351,12 +351,42 @@ body {
         font-size: 22px;
     }
 
-    .sectionheading {
-        font-size: 26px;
-        flex: 0 0 30%;
+    .aboutme {
+      text-align: center;  
+      justify-content: center;
+      margin-left: 90px;
     }
 
-    .aboutme {
-        
-    }
+    .sectionheading {
+    
+    text-align: center;
+    font-size: 30px;
+    border-bottom: 5px solid ivory;
+    border-right: 0px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+.row {
+    display: block;
+}
+
+.projectscontainer {
+    position: relative;
+    display: block;
+}
+
+#project1, #project2, #project3, #project4, #project5 {
+    margin-left: 10px;
+}
+
+#mod1challenge {
+    margin-left: 10px;
+}
+
+.resume {
+    padding-bottom: 40px;
+    font-size: 26px;
+}
+
 }
