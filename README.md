@@ -37,7 +37,9 @@ Please refer to the LICENSE in the repo.
 
 ## Screenshots of HTML/CSS file:
 
-![Live Website](assets/)
-![Live Website2] (assets/)
-![HTML Screenshot](assets/mod1ss1.png)
-![CSS Screenshot](assets/mod1ss2.png)
+![Live Website](assets/ssfullsize.png)
+![Live 768px](assets/ss768.png)
+![Live 480px1](assets/ss480.png)
+![Live 480px2](assets/ss4802.png)
+![HTML Screenshot](assets/sshtml.png)
+![CSS Screenshot](assets/sscss.png)
